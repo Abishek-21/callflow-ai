@@ -1,0 +1,17 @@
+Agent: Good afternoon, Summit Heating and Air, this is Priya. How can I help?
+Customer: Hi, this is Helen Brooks. Our AC is blowing warm air and it's 90 degrees outside. My mother lives with us and she's elderly.
+Agent: I'm sorry to hear that, Helen. Let's get you cooled down quickly. When did the AC stop cooling?
+Customer: Last night.
+Agent: Is the outdoor unit running at all, and have you checked the breaker?
+Customer: The outside fan isn't spinning. The breaker looks fine.
+Agent: How old is the system?
+Customer: Around eight years.
+Agent: What's the service address?
+Customer: 61 Birchwood Court, Lakeview Springs.
+Agent: Great, we cover that area. Is your mother safe right now, or does anyone need to stay somewhere cooler?
+Customer: She's okay for now with fans.
+Agent: Good. Our technicians are certified and every repair has a warranty. I can get someone out today at 2 p.m. Does that work for you?
+Customer: Yes, please.
+Agent: I've booked you for today at 2 p.m. Can I confirm the best phone number for the technician?
+Customer: (512) 555-0129.
+Agent: Thank you. The technician will call you 30 minutes before arriving. Thanks for calling, Helen.

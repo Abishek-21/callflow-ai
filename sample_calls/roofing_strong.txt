@@ -1,0 +1,25 @@
+Agent: Thank you for calling Summit Roofing, this is Maya. How can I help you today?
+Customer: Hi Maya, my name is Dana Whitfield. We had that big hail storm last night and now there's water dripping through our bedroom ceiling.
+Agent: I'm sorry to hear that, Dana. That sounds stressful, so let's get you taken care of. Is the water actively coming in right now?
+Customer: Yes, it's still dripping. I put a bucket under it.
+Agent: Good thinking. When did you first notice it, and is it just the one spot?
+Customer: Around six this morning. Just the one spot, but the stain is getting bigger.
+Agent: Is anyone in the home at risk, or is the water near any light fixtures?
+Customer: No, it's away from the lights.
+Agent: Do you know roughly how old the roof is, and have you had any repairs before?
+Customer: It's about fifteen years old. No repairs that I know of.
+Agent: Thanks. What's the address of the property so I can confirm we service your area?
+Customer: 1420 Maple Ridge Drive in Lakeview Springs.
+Agent: Great, Lakeview Springs is in our service area. And are you the homeowner?
+Customer: Yes, we own the home.
+Agent: Perfect. What's the best phone number to reach you?
+Customer: (512) 555-0143.
+Agent: And an email for your confirmation?
+Customer: dana.whitfield@example.com
+Agent: Thank you. Here's what we can do: we offer a free storm damage inspection, our inspectors are licensed and insured, and if there's hail damage we can help document it for your insurance claim. We can also put a temporary tarp on today to stop the leak.
+Customer: That would be great. How soon can someone come out?
+Agent: I can send a crew today at 3 p.m. for the tarp and inspection, or first thing tomorrow at 8 a.m. Which works better for you?
+Customer: Today at 3 works.
+Agent: You're all set. I've booked your inspection and emergency tarp for today at 3 p.m. You'll get a text confirmation in a few minutes, and the inspector will call you about 30 minutes before arriving. Is there anything else I can help with?
+Customer: No, that's it. Thank you so much.
+Agent: You're welcome, Dana. Thanks for calling Summit Roofing, and have a good rest of your day.

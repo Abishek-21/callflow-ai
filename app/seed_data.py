@@ -268,9 +268,10 @@ Agent: Thank you, Victor. You'll get a confirmation email shortly, and the advis
 """
 
 
-def _call(key, agent_name, business_type, call_date, transcript):
+def _call(key, agent_name, business_type, call_date, transcript, label):
     return {
         "key": key,
+        "label": label,
         "agent_name": agent_name,
         "business_type": business_type,
         "call_date": call_date,
@@ -280,19 +281,64 @@ def _call(key, agent_name, business_type, call_date, transcript):
 
 SEED_CALLS = [
     *DEMO_CALLS,
-    _call("maya_furnace", "Maya Torres", BusinessType.HVAC, date(2026, 9, 22), MAYA_FURNACE),
-    _call("jake_gutters", "Jake Miller", BusinessType.ROOFING, date(2026, 9, 23), JAKE_GUTTERS),
-    _call("chris_water_heater", "Chris Novak", BusinessType.PLUMBING, date(2026, 9, 24), CHRIS_WATER_HEATER),
-    _call("priya_garage", "Priya Shah", BusinessType.GENERIC, date(2026, 9, 25), PRIYA_GARAGE),
-    _call("jake_thermostat", "Jake Miller", BusinessType.HVAC, date(2026, 9, 29), JAKE_THERMOSTAT),
-    _call("chris_roof_replacement", "Chris Novak", BusinessType.ROOFING, date(2026, 9, 30), CHRIS_ROOF_REPLACEMENT),
-    _call("maya_burst_pipe", "Maya Torres", BusinessType.PLUMBING, date(2026, 10, 2), MAYA_BURST_PIPE),
-    _call("priya_ac_elderly", "Priya Shah", BusinessType.HVAC, date(2026, 10, 5), PRIYA_AC_ELDERLY),
-    _call("jake_drain", "Jake Miller", BusinessType.PLUMBING, date(2026, 10, 6), JAKE_DRAIN),
-    _call("chris_furnace_noise", "Chris Novak", BusinessType.HVAC, date(2026, 10, 7), CHRIS_FURNACE_NOISE),
-    _call("maya_wind_shingles", "Maya Torres", BusinessType.ROOFING, date(2026, 10, 8), MAYA_WIND_SHINGLES),
-    _call("priya_toilet", "Priya Shah", BusinessType.PLUMBING, date(2026, 10, 9), PRIYA_TOILET),
-    _call("jake_roof_leak", "Jake Miller", BusinessType.ROOFING, date(2026, 10, 10), JAKE_ROOF_LEAK),
-    _call("chris_deck", "Chris Novak", BusinessType.GENERIC, date(2026, 10, 12), CHRIS_DECK),
-    _call("maya_ac_replacement", "Maya Torres", BusinessType.HVAC, date(2026, 10, 13), MAYA_AC_REPLACEMENT),
+    _call(
+        "maya_furnace", "Maya Torres", BusinessType.HVAC, date(2026, 9, 22), MAYA_FURNACE,
+        "HVAC: furnace out overnight, same-day repair booked (strong call)",
+    ),
+    _call(
+        "jake_gutters", "Jake Miller", BusinessType.ROOFING, date(2026, 9, 23), JAKE_GUTTERS,
+        "Roofing: overflowing gutters, customer told to call back (weak call)",
+    ),
+    _call(
+        "chris_water_heater", "Chris Novak", BusinessType.PLUMBING, date(2026, 9, 24), CHRIS_WATER_HEATER,
+        "Plumbing: noisy water heater, price worry not addressed (average call)",
+    ),
+    _call(
+        "priya_garage", "Priya Shah", BusinessType.GENERIC, date(2026, 9, 25), PRIYA_GARAGE,
+        "General: garage door stuck open, visit booked (strong call)",
+    ),
+    _call(
+        "jake_thermostat", "Jake Miller", BusinessType.HVAC, date(2026, 9, 29), JAKE_THERMOSTAT,
+        "HVAC: smart thermostat price question, no contact taken (cold lead)",
+    ),
+    _call(
+        "chris_roof_replacement", "Chris Novak", BusinessType.ROOFING, date(2026, 9, 30), CHRIS_ROOF_REPLACEMENT,
+        "Roofing: replacement quote, price shopper lost (cold lead)",
+    ),
+    _call(
+        "maya_burst_pipe", "Maya Torres", BusinessType.PLUMBING, date(2026, 10, 2), MAYA_BURST_PIPE,
+        "Plumbing: burst pipe emergency, plumber dispatched (strong call)",
+    ),
+    _call(
+        "priya_ac_elderly", "Priya Shah", BusinessType.HVAC, date(2026, 10, 5), PRIYA_AC_ELDERLY,
+        "HVAC: AC out with elderly parent at home, booked today (strong call)",
+    ),
+    _call(
+        "jake_drain", "Jake Miller", BusinessType.PLUMBING, date(2026, 10, 6), JAKE_DRAIN,
+        "Plumbing: clogged drain, frustrated repeat caller (weak call)",
+    ),
+    _call(
+        "chris_furnace_noise", "Chris Novak", BusinessType.HVAC, date(2026, 10, 7), CHRIS_FURNACE_NOISE,
+        "HVAC: banging furnace, booked but little rapport or value (average call)",
+    ),
+    _call(
+        "maya_wind_shingles", "Maya Torres", BusinessType.ROOFING, date(2026, 10, 8), MAYA_WIND_SHINGLES,
+        "Roofing: wind-damaged shingles, free inspection booked (strong call)",
+    ),
+    _call(
+        "priya_toilet", "Priya Shah", BusinessType.PLUMBING, date(2026, 10, 9), PRIYA_TOILET,
+        "Plumbing: running toilet, email follow-up set (warm lead)",
+    ),
+    _call(
+        "jake_roof_leak", "Jake Miller", BusinessType.ROOFING, date(2026, 10, 10), JAKE_ROOF_LEAK,
+        "Roofing: active ceiling leak, no visit offered (weak call)",
+    ),
+    _call(
+        "chris_deck", "Chris Novak", BusinessType.GENERIC, date(2026, 10, 12), CHRIS_DECK,
+        "General: rotting deck, budget objection, no booking (average call)",
+    ),
+    _call(
+        "maya_ac_replacement", "Maya Torres", BusinessType.HVAC, date(2026, 10, 13), MAYA_AC_REPLACEMENT,
+        "HVAC: AC replacement, financing offered and estimate booked (strong call)",
+    ),
 ]

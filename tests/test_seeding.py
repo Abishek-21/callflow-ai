@@ -89,3 +89,16 @@ def test_startup_seeds_empty_database_when_enabled(monkeypatch):
 
 def test_startup_does_not_seed_by_default(client):
     assert client.get("/api/dashboard/metrics").json()["total_calls"] == 0
+
+
+def test_sample_call_files_match_seed_data():
+    """sample_calls/ is generated; fails if app/seed_data.py changed without re-exporting."""
+    from scripts.export_sample_calls import OUT_DIR, expected_files
+
+    expected = expected_files()
+    actual = {p.name: p.read_text() for p in OUT_DIR.iterdir() if p.is_file()}
+    assert actual == expected, "Run `python -m scripts.export_sample_calls` to regenerate sample_calls/"
+
+
+def test_every_demo_call_has_a_label():
+    assert all(c["label"].strip() for c in SEED_CALLS)

@@ -222,3 +222,21 @@ def test_rolling_average_is_call_weighted_over_calendar_days():
     ]
     rolling = list(_rolling_average(points, days=7)["rolling_average"])
     assert rolling == [90, (90 + 3 * 50) / 4, 20]
+
+
+def test_demo_dropdown_loads_any_seed_call(client, fake_api):
+    from app.seed_data import SEED_CALLS
+
+    at = AppTest.from_file(APP, default_timeout=30).run()
+    picker = at.selectbox(key="eval_demo_pick")
+    assert len(picker.options) == len(SEED_CALLS)
+
+    target = next(c for c in SEED_CALLS if c["key"] == "jake_drain")
+    picker.select("jake_drain").run()
+    assert at.text_area(key="eval_transcript").value == target["transcript"].strip()
+    assert at.text_input(key="eval_agent").value == "Jake Miller"
+    assert at.selectbox(key="eval_business_type").value == "Plumbing"
+
+    click(at, "Clear")
+    assert at.selectbox(key="eval_demo_pick").value is None
+    assert at.text_area(key="eval_transcript").value == ""

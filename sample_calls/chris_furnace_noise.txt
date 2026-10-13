@@ -1,0 +1,13 @@
+Agent: Summit Heating and Air, this is Chris.
+Customer: Hi, my name is Daniel Ortiz. Our furnace has started making a loud banging noise when it kicks on.
+Agent: How long has it been doing that?
+Customer: About a week, and it's getting worse.
+Agent: Is the house still heating okay?
+Customer: Yes, it still heats.
+Agent: What's your address?
+Customer: 230 Sycamore Street, Lakeview Springs.
+Agent: And the best phone number?
+Customer: (512) 555-0146.
+Agent: We can send a technician Friday at 11 a.m. Does that work?
+Customer: Yes, that's fine.
+Agent: Okay, you're scheduled for Friday at 11 a.m. The tech will call you before arriving.

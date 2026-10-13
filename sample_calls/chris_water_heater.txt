@@ -1,0 +1,15 @@
+Agent: Thanks for calling Summit Plumbing, this is Chris. How can I help you?
+Customer: Hi, my name is Rosa Delgado. Our water heater is making a popping noise and the water isn't getting very hot anymore.
+Agent: Okay. How old is the water heater?
+Customer: About ten years, I think.
+Agent: Is it gas or electric?
+Customer: Gas.
+Agent: Any water around the base of the tank?
+Customer: A little bit, yeah.
+Agent: Got it. Can I get the address and the best phone number?
+Customer: 74 Cedar Point Road, Lakeview Springs. My number is (512) 555-0187.
+Agent: And do you own the home?
+Customer: Yes. Honestly, I'm worried a new water heater is going to be really expensive.
+Agent: It can be, it depends on the model. We have an opening Thursday at 9 a.m. if you want to schedule a technician.
+Customer: I need to think about it. I'll let you know.
+Agent: Okay, thanks for calling.

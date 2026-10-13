@@ -1,0 +1,15 @@
+Agent: Thank you for calling Summit Roofing, this is Maya. How can I help you today?
+Customer: Hi Maya, this is Paul Jensen. The wind storm yesterday blew some shingles off the back of our roof.
+Agent: I'm sorry to hear that, Paul. Let's make sure it doesn't turn into a leak. Is any water coming inside right now?
+Customer: Not that I've seen, but I'd like someone to look at it this week.
+Agent: Roughly how many shingles are missing, and how old is the roof?
+Customer: Maybe ten shingles. The roof is about nine years old.
+Agent: Have you had any other damage on the property, like gutters or siding?
+Customer: One gutter is hanging loose.
+Agent: What's the property address? I'll confirm it's in our service area.
+Customer: 47 Ridgecrest Drive, Lakeview Springs.
+Agent: Perfect, we cover that area. Are you the homeowner, and what's the best number and email for you?
+Customer: Yes, I own it. (512) 555-0172 and paul.jensen@example.com.
+Agent: Thank you. The inspection is free, we're licensed and insured, and we can help with the insurance claim if the damage is covered. I have Thursday at 9 a.m. or 1 p.m. Which works better for you?
+Customer: Thursday at 9.
+Agent: You're all set for Thursday at 9 a.m. You'll get a confirmation text, and the inspector will call before arriving. Thanks for calling Summit Roofing, Paul!

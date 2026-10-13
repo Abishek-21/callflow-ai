@@ -30,7 +30,7 @@ It runs fully offline with a deterministic rule-based evaluator, and switches to
 ## Features
 
 **Evaluate a call**
-- Paste or upload (`.txt`) a transcript, pick the business type (Roofing, HVAC, Plumbing, Generic Home Services), agent, and optional call date, or load one of three one-click demo transcripts.
+- Paste or upload (`.txt`) a transcript, pick the business type (Roofing, HVAC, Plumbing, Generic Home Services), agent, and optional call date. Or load a demo: three one-click buttons, plus a dropdown with all 18 demo calls.
 - Nine-category rubric, each scored 0–5, rolled into an overall score out of 100, with per-category feedback, strengths, missed opportunities, a coaching recommendation, and risk flags.
 - **CRM record:** customer name, phone, email, location, service type, problem summary, urgency, lead temperature (Hot / Warm / Cold), appointment status, next action, and follow-up timing, plus an editable CRM note with a **Copy CRM note** button.
 - **Follow-ups:** editable SMS (with character and segment count) and email (subject and body), each with a copy button. They thank the customer, reference their problem, confirm the next step, and include a call to action.
@@ -173,6 +173,8 @@ python -m scripts.seed_demo --keep-dates # keep original dates (default shifts t
 
 Demo calls are scored by the mock evaluator, so seeding is instant and free. They're stored and labelled as mock.
 
+**Try any of them live.** On the Evaluate page, the **"Or pick any of the 18 demo calls"** dropdown loads a transcript with its agent and business type, ready to evaluate (with the LLM, if a key is set). The same transcripts are in [`sample_calls/`](sample_calls/) as `.txt` files for the upload box, with an index of agents, business types, and scenarios. Regenerate them after editing `app/seed_data.py` with `python -m scripts.export_sample_calls`.
+
 ## API
 
 Interactive docs: **http://localhost:8000/docs**
@@ -286,7 +288,7 @@ Overall score = total / 45 × 100, rounded. Bands: **80+** strong call, **60–7
 pytest -q
 ```
 
-100 tests, no network or API key needed:
+103 tests, no network or API key needed:
 
 | File | Covers |
 |---|---|
@@ -330,7 +332,10 @@ callflow-ai/
 │   ├── charts.py             # Altair charts
 │   ├── ui.py                 # styling, cards, copy button, status banners
 │   └── views/                # evaluate, dashboard, history, coaching
-├── scripts/seed_demo.py      # python -m scripts.seed_demo
+├── scripts/
+│   ├── seed_demo.py          # python -m scripts.seed_demo
+│   └── export_sample_calls.py # writes sample_calls/ from the demo dataset
+├── sample_calls/             # the 18 demo transcripts as .txt files
 ├── tests/
 ├── .streamlit/config.toml    # theme: dark blue, white, green accents
 ├── Dockerfile
@@ -354,7 +359,7 @@ Things worth discussing, and that the code backs up:
 - **Reviewable, not autonomous.** CRM notes and follow-ups are drafts a person edits and copies. Nothing is sent automatically.
 - **Analytics on structured data.** Because rubric scores are stored per category, coaching insights are straightforward queries. For example: which categories score 2 or lower across many calls, and for which agents.
 - **Provider-agnostic.** The same code runs against OpenAI or OpenAI-compatible APIs (tested live with Groq) by changing environment variables.
-- **Tested.** 100 tests, including the LLM failure paths (with a fake client) and the Streamlit pages (headless).
+- **Tested.** 103 tests, including the LLM failure paths (with a fake client) and the Streamlit pages (headless).
 
 Be accurate about scope:
 - It is a prototype with fictional data. It hasn't been used at a real call center and has no measured business results.

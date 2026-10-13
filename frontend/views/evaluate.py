@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-from app.sample_data import DEMO_CALLS
+from app.seed_data import SEED_CALLS
 from app.schemas import BusinessType
 from frontend import api_client, ui
 from frontend.result_view import render_result
@@ -13,6 +13,7 @@ DEMO_BUTTONS = {
     "hvac_weak": "HVAC · weak call",
     "plumbing_objection": "Plumbing · price objection",
 }
+DEMO_BY_KEY = {c["key"]: c for c in SEED_CALLS}
 
 
 def _init_state() -> None:
@@ -25,11 +26,22 @@ def _init_state() -> None:
 
 
 def _load_demo(key: str) -> None:
-    call = next(c for c in DEMO_CALLS if c["key"] == key)
+    call = DEMO_BY_KEY[key]
     st.session_state.eval_transcript = call["transcript"].strip()
     st.session_state.eval_business_type = call["business_type"].value
     st.session_state.eval_agent = call["agent_name"]
     st.session_state.eval_date = call["call_date"]
+
+
+def _load_picked_demo() -> None:
+    key = st.session_state.get("eval_demo_pick")
+    if key:
+        _load_demo(key)
+
+
+def _demo_option_label(key: str) -> str:
+    call = DEMO_BY_KEY[key]
+    return f"{call['agent_name']} · {call['label']}"
 
 
 def _load_upload() -> None:
@@ -42,6 +54,7 @@ def _clear() -> None:
     for k in ("eval_transcript", "eval_agent"):
         st.session_state[k] = ""
     st.session_state.eval_date = None
+    st.session_state.eval_demo_pick = None
     st.session_state.eval_result = None
     st.session_state.eval_error = None
 
@@ -86,6 +99,15 @@ def render() -> None:
         demo_row.markdown("**Load a demo transcript** (fictional):")
         for key, label in DEMO_BUTTONS.items():
             demo_row.button(label, key=f"demo_{key}", on_click=_load_demo, args=(key,), icon=":material/description:")
+        st.selectbox(
+            f"Or pick any of the {len(SEED_CALLS)} demo calls",
+            list(DEMO_BY_KEY),
+            index=None,
+            format_func=_demo_option_label,
+            placeholder="Choose a demo call…",
+            key="eval_demo_pick",
+            on_change=_load_picked_demo,
+        )
 
         st.text_area(
             "Transcript",

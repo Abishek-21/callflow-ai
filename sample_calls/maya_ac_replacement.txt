@@ -1,0 +1,17 @@
+Agent: Good afternoon, thank you for calling Summit Heating and Air, this is Maya.
+Customer: Hi, my name is Victor Huang. Our AC is nineteen years old and the last tech said it needs replacing. I'm worried about the price.
+Agent: I completely understand, Victor. A new system is a big decision. Is the AC still cooling for now?
+Customer: It's cooling, but not well, and our power bills have gone way up.
+Agent: How many square feet is the home, and are there any rooms that never get cool?
+Customer: About eighteen hundred square feet. The upstairs bedrooms are always warm.
+Agent: Have you had any repairs on it this year?
+Customer: Two, which is why I'm thinking about replacing it.
+Agent: That makes sense. What's the address there, and do you own the home?
+Customer: 27 Magnolia Circle, Lakeview Springs, and yes, we own it.
+Agent: Great, that's in our service area. Here's how we can help with cost: the in-home estimate is free with no obligation, we offer financing with low monthly payments, and new systems come with a ten-year warranty. A more efficient unit can also save you on those power bills.
+Customer: Financing would help.
+Agent: I can have a comfort advisor out Saturday at 10 a.m. or Monday at 4 p.m. Which works better for you?
+Customer: Saturday works.
+Agent: You're all set for Saturday at 10 a.m. What's the best phone number and email for the confirmation?
+Customer: (512) 555-0183, victor.huang@example.com.
+Agent: Thank you, Victor. You'll get a confirmation email shortly, and the advisor will call you before arriving. Have a great day!

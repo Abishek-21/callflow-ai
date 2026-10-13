@@ -1,0 +1,21 @@
+Agent: Good morning, thank you for calling Summit Heating and Air, this is Maya. How can I help?
+Customer: Hi, my name is Grace Holloway. Our furnace stopped working overnight and there's no heat in the house.
+Agent: I'm sorry to hear that, Grace. Let's get you warm again. When did you first notice it?
+Customer: Around 5 this morning. It was 61 degrees inside when I woke up.
+Agent: Is the furnace making any noise, and does the thermostat screen still turn on?
+Customer: The thermostat is on, but the furnace just clicks and nothing happens.
+Agent: Do you smell gas anywhere near the unit?
+Customer: No, nothing like that.
+Agent: Good, that's safe. How old is the furnace, roughly?
+Customer: Maybe twelve years.
+Agent: What's the address so I can confirm you're in our service area?
+Customer: 305 Juniper Lane, Lakeview Springs.
+Agent: Perfect, that's in our area. Do you own the home?
+Customer: Yes.
+Agent: What's the best number to reach you, and an email for the confirmation?
+Customer: (512) 555-0152, and grace.holloway@example.com.
+Agent: Thank you. Our technicians are licensed and insured, and all repairs come with a one-year warranty. I can send a technician today at 1 p.m. or 4 p.m. Which works better?
+Customer: 1 p.m., please.
+Agent: You're all set for today at 1 p.m. You'll get a text confirmation shortly, and the technician will call you 30 minutes before arriving. Anything else I can help with?
+Customer: No, thank you so much.
+Agent: You're welcome, Grace. Stay warm, and thanks for calling Summit Heating and Air.

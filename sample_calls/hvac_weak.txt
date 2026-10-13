@@ -1,0 +1,11 @@
+Agent: Summit Heating and Air.
+Customer: Hi, yeah, my AC stopped cooling yesterday and it's like 88 degrees in the house. My name's Tom Reyes.
+Agent: Okay. What kind of unit is it?
+Customer: I'm not sure, it's whatever came with the house. It's blowing but the air is warm.
+Agent: Yeah, could be a lot of things. Could be the capacitor, could be refrigerant.
+Customer: How much does it usually cost to come out and look at it?
+Agent: It depends on what's wrong. I dunno exactly, the tech would have to tell you.
+Customer: Okay... is there any way someone could come out soon? We have a newborn at home.
+Agent: We're pretty busy this week. You can call back tomorrow and check if something opens up.
+Customer: Alright, I guess. My number is (512) 555-0178 if anyone can call me.
+Agent: Okay. Thanks for calling.

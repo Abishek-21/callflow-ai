@@ -1,0 +1,11 @@
+Agent: Thank you for calling Summit Roofing, this is Chris.
+Customer: Hi. I'm collecting quotes for a roof replacement. The roof is about twenty-five years old and the shingles are curling.
+Agent: Okay. How big is the house, roughly?
+Customer: About two thousand square feet, single story.
+Agent: Any water getting in right now?
+Customer: No, nothing like that. We're planning to do it in the spring.
+Agent: Got it. Roughly how much did the other quotes come in at?
+Customer: Around fourteen thousand. Honestly, I'm looking for whoever is cheaper.
+Agent: Okay. We'd have to see it to give you a price.
+Customer: Sure. I'd rather not give out my details yet. Do you have a website?
+Agent: Yes, it's on our ads. Thanks for calling.

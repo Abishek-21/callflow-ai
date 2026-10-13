@@ -1,0 +1,11 @@
+Agent: Thank you for calling Summit Home Services, this is Chris.
+Customer: Hi, this is Laura Kim. A few boards on our back deck are rotting and one step feels loose.
+Agent: How big is the deck?
+Customer: About twelve by sixteen feet.
+Agent: Is the loose step safe to use right now?
+Customer: We're avoiding it for now.
+Agent: What's the address and best phone number?
+Customer: 140 Orchard Lane, Lakeview Springs, and (512) 555-0168. What would something like this cost? We're on a tight budget this year.
+Agent: I understand. We can do a free estimate so you know the price before anything is done. Would you like to schedule the estimate?
+Customer: I want to talk it over with my husband first.
+Agent: Okay, give us a call back when you're ready. Thanks.

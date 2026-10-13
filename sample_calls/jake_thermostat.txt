@@ -1,0 +1,9 @@
+Agent: Heating and Air.
+Customer: Hi. I was just wondering if you install smart thermostats.
+Agent: Yeah, we do that.
+Customer: What does that usually run?
+Agent: Um, depends on the thermostat. Couple hundred, maybe.
+Customer: Okay. I'm just getting ideas for now, no rush.
+Agent: Okay. Whatever works for you.
+Customer: I'll think about it. Thanks.
+Agent: Yep.

@@ -1,0 +1,17 @@
+Agent: Good afternoon, Summit Home Services, this is Priya. How can I help?
+Customer: Hi, I'm Marcus Webb. My garage door won't close all the way. It stops about a foot from the ground and goes back up.
+Agent: I'm sorry to hear that, that sounds frustrating. When did it start doing that?
+Customer: Two days ago.
+Agent: Is anything blocking the sensors near the bottom of the track?
+Customer: I checked, nothing's in the way.
+Agent: Have you noticed any grinding noise or a broken spring?
+Customer: No, it sounds normal.
+Agent: What's the address there?
+Customer: 19 Aspen Way, Lakeview Springs.
+Agent: Great, we service that area. Is the house secure right now, or is the garage stuck open?
+Customer: It's stuck open, so I'd like it fixed soon.
+Agent: Understood. Our technicians are licensed and insured, and we give a written estimate upfront. I can have someone out tomorrow at 10 a.m. Does that work for you?
+Customer: Yes, that works.
+Agent: I've booked you for tomorrow at 10 a.m. What's the best phone number and email for the confirmation?
+Customer: (512) 555-0135, marcus.webb@example.com.
+Agent: Thank you, Marcus. You'll get a confirmation email shortly. Have a great day!

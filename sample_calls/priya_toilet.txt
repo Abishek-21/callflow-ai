@@ -1,0 +1,15 @@
+Agent: Good morning, Summit Plumbing, this is Priya. How can I help?
+Customer: Hi, my name is Nina Patel. Our upstairs toilet keeps running after it flushes. It's nothing serious, just annoying.
+Agent: I understand, and it can waste a lot of water. How long has it been running like that?
+Customer: A couple of weeks.
+Agent: Does it stop if you jiggle the handle, and is there any water on the floor?
+Customer: Jiggling helps sometimes. The floor is dry.
+Agent: What's the address there?
+Customer: 16 Lantern Place, Lakeview Springs.
+Agent: Great, that's in our service area. What's the best email or number to reach you?
+Customer: nina.patel@example.com. I'd prefer email for now.
+Agent: Of course. We offer free estimates, and most toilet repairs come with a one-year warranty. Would you like to book a visit this week?
+Customer: Not yet, I'm checking our schedule. Can you email me some options?
+Agent: Absolutely. I'll email you available times, and I'll follow up Friday at 10 a.m. if we haven't heard back.
+Customer: Sounds good, thanks.
+Agent: Thank you, Nina. Have a great day.

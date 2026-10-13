@@ -1,0 +1,19 @@
+Agent: Thank you for calling Summit Plumbing, this is Maya. How can I help?
+Customer: Hi, my name is Owen Fletcher. A pipe burst in our basement and there's water everywhere!
+Agent: I'm so sorry, Owen, that sounds stressful. Let's get this handled right away. Have you been able to shut off the main water valve?
+Customer: Yes, my neighbor helped me shut it off a few minutes ago.
+Agent: Good, that stops more water coming in. Is the water near any outlets or the breaker panel?
+Customer: No, it's on the other side of the basement.
+Agent: How much water is on the floor, roughly?
+Customer: Maybe an inch across half the basement.
+Agent: What's the address? I want to confirm we can get there quickly.
+Customer: 512 Harbor View Drive, Lakeview Springs.
+Agent: That's in our service area. Are you the homeowner?
+Customer: Yes, I own it.
+Agent: What's the best number to reach you, and your email?
+Customer: (512) 555-0118, owen.fletcher@example.com.
+Agent: Thank you. We offer same-day emergency service, our plumbers are licensed and insured, and we can document the damage for your insurance claim. I can have a plumber there today by 11 a.m.
+Customer: Please do.
+Agent: You're all set. A plumber is on the way and will arrive today by 11 a.m. You'll get a text with their name and a tracking link. Anything else?
+Customer: No, thank you.
+Agent: You're welcome, Owen. Thank you for calling Summit Plumbing.

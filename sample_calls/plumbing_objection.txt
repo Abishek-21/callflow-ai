@@ -1,0 +1,19 @@
+Agent: Good afternoon, Summit Plumbing, this is Priya. How can I help?
+Customer: Hi, this is Linda Park. I've got a leaking pipe under my kitchen sink. It's a slow drip but it's getting worse.
+Agent: I'm sorry to hear that, Linda. How long has it been leaking, and is there any water damage to the cabinet?
+Customer: About a week. The cabinet floor is a little warped.
+Agent: Is it coming from the supply line or the drain pipe, if you can tell?
+Customer: I think the drain pipe. It drips when we run the dishwasher.
+Agent: Have you been able to shut off the valve under the sink?
+Customer: Yes, I turned it off for now, so we're managing.
+Agent: Good, that will limit any damage. What's the address there?
+Customer: 88 Willow Court, Lakeview Springs.
+Agent: Great, we cover that area.
+Customer: Honestly, I'm worried about the cost. The last plumber charged us a fortune.
+Agent: I completely understand. The good news is the inspection is free and there's no obligation. The technician will give you a written estimate upfront before any work starts, and we offer financing on larger repairs. All our work also comes with a one-year warranty.
+Customer: That helps. I still want to talk it over with my husband before booking anything, though.
+Agent: Of course. Would it help if I held a free inspection slot for Wednesday at 2 p.m. while you two talk it over?
+Customer: Let me check with him first.
+Agent: No problem. What's the best number to reach you, and what's your email? I'll send our pricing information today.
+Customer: It's (512) 555-0121, and my email is linda.park@example.com.
+Agent: Thanks, Linda. You'll get an email from us today, and I'll call you tomorrow at 10 a.m. to see what works for you. Thanks for calling Summit Plumbing!

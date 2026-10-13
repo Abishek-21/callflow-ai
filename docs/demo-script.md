@@ -33,7 +33,7 @@ A short walkthrough for a portfolio or a recruiter. Show the workflow, not every
 | 2:00 | Click a row in **Recent calls** | "Any call opens in full from here or from Call history, which has filters for agent, service, lead temperature and score." |
 | 2:15 | **Coaching** | "Because rubric scores are stored per category, the coaching page can find recurring gaps: here, qualification and value communication, and which agents they affect. The heatmap shows it at a glance." |
 | 2:35 | Coaching plan cards | "Each agent gets up to three focus areas and a concrete tip." |
-| 2:45 | API docs tab | "It's a FastAPI backend with a Streamlit front end, documented API endpoints, and 100 tests." |
+| 2:45 | API docs tab | "It's a FastAPI backend with a Streamlit front end, documented API endpoints, and 103 tests." |
 | 2:55 | Back to the dashboard | "The idea: start from the operational workflow, make the AI output structured and reviewable, then connect it to follow-up and reporting. Thanks for watching." |
 
 ## After recording
