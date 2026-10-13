@@ -1,0 +1,13 @@
+# Minimum versions are the ones this project was built and tested with.
+fastapi>=0.143
+uvicorn[standard]>=0.54
+streamlit>=1.65
+altair>=6.3
+sqlalchemy>=2.1
+pydantic>=2.14
+python-dotenv>=1.2
+openai>=3.29
+requests>=2.34
+pandas>=3.0
+pytest>=9.1
+httpx>=0.28

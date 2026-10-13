@@ -1,0 +1,24 @@
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+# Sales-operations palette: dark blue, white, subtle green accents.
+[theme]
+base = "light"
+primaryColor = "#12355B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F6FA"
+textColor = "#10223A"
+borderColor = "#DCE3EC"
+linkColor = "#1E8E5A"
+baseRadius = "medium"
+chartCategoricalColors = ["#12355B", "#1E8E5A", "#4F7CAC", "#8FB8A8", "#C98A0B", "#9AA8B8"]
+
+[theme.sidebar]
+backgroundColor = "#0B2545"
+secondaryBackgroundColor = "#13315C"
+textColor = "#E8EEF6"
+primaryColor = "#5FD3A0"
+borderColor = "#1D3E66"
